@@ -883,8 +883,9 @@ if __name__ == '__main__':
     PI = math.pi
     player_images = []
     for i in range(1, 5):
+        C:\GitHub\GameDev\PacMan\PacMan\img\1.png
         player_images.append(pygame.transform.scale(pygame.image.load(
-            f'pacman/img/{i}.png'), (45, 45)))
+            f'C:/GitHub/GameDev/PacMan/PacMan/img/{i}.png'), (45, 45)))
     red_img = pygame.transform.scale(pygame.image.load(
         f'pacman/img/red.png'), (45, 45))
     green_img = pygame.transform.scale(pygame.image.load(
