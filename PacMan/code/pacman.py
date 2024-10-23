@@ -883,21 +883,21 @@ if __name__ == '__main__':
     PI = math.pi
     player_images = []
     for i in range(1, 5):
-        C:\GitHub\GameDev\PacMan\PacMan\img\1.png
+        
         player_images.append(pygame.transform.scale(pygame.image.load(
             f'C:/GitHub/GameDev/PacMan/PacMan/img/{i}.png'), (45, 45)))
     red_img = pygame.transform.scale(pygame.image.load(
-        f'pacman/img/red.png'), (45, 45))
+        f'C:/GitHub/GameDev/PacMan/PacMan/img/red.png'), (45, 45))
     green_img = pygame.transform.scale(pygame.image.load(
-        f'pacman/img/green.png'), (45, 45))
+        f'C:/GitHub/GameDev/PacMan/PacMan/img/green.png'), (45, 45))
     blue_img = pygame.transform.scale(pygame.image.load(
-        f'pacman/img/blue.png'), (45, 45))
+        f'C:/GitHub/GameDev/PacMan/PacMan/img/blue.png'), (45, 45))
     yellow_img = pygame.transform.scale(pygame.image.load(
-        f'pacman/img/yellow.png'), (45, 45))
+        f'C:/GitHub/GameDev/PacMan/PacMan/img/yellow.png'), (45, 45))
     spooked_img = pygame.transform.scale(pygame.image.load(
-        f'pacman/img/powerup.png'), (45, 45))
+        f'C:/GitHub/GameDev/PacMan/PacMan/img/powerup.png'), (45, 45))
     dead_img = pygame.transform.scale(pygame.image.load(
-        f'pacman/img/dead.png'), (45, 45))
+        f'C:/GitHub/GameDev/PacMan/PacMan/img/dead.png'), (45, 45))
 
     player_x = 450
     player_y = 663
